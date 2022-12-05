@@ -1,14 +1,11 @@
 .apresentacao{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: monospace;
     width: 100%;
+    padding: 20px 0px;
     height: 700px;
     background-color: rgb(8, 8, 8);
     color: white;
-    background-image: url("../../../public/imagens/1632159517126.png") ;
 }
 .img-fundo{
     z-index: 0;
@@ -16,4 +13,20 @@
 
 .apresentacao h1{
     z-index: 1;
+    margin-top: 30px;
+}
+
+.cards-skills img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    float: left;
+    margin: 30px;
 }
