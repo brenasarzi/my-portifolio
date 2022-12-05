@@ -7,8 +7,13 @@
     width: 100%;
     height: 700px;
     background-color: rgb(8, 8, 8);
-    color: pink;
+    color: white;
+    background-image: url("../../../public/imagens/1632159517126.png") ;
 }
 .img-fundo{
     z-index: 0;
+}
+
+.apresentacao h1{
+    z-index: 1;
 }

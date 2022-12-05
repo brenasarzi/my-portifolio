@@ -1,13 +1,14 @@
-import Banner from './componentes/Banner/Banner';
-import Form from './componentes/Form/Form';
-import Presentation from './componentes/Presentation/Presentation';
+import Banner from './componentes/Banner';
+import Form from './componentes/Form';
+import Presentation from './componentes/Presentation';
 // componente 
 function App() {
   return (
     <div className="App">
       <Banner/>
-      <Form />
       <Presentation />
+      <Form />
+
     </div>
   );
 }
